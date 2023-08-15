@@ -1,0 +1,52 @@
+.list-container {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.todo {
+    width: 100%;
+    height: 125px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px #FE7BE5 solid;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    overflow: hidden;
+}
+
+.text-container {
+    width: 60%;
+    overflow: hidden;
+}
+
+.deleted-text-container {
+    width: 60%;
+    overflow: hidden;
+    text-decoration: line-through;
+}
+
+.button-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.complete-button {
+    outline: 1px #2fd659 solid;
+    color: #2fd659;
+}
+.complete-button:hover {
+    border: 1px #028723 solid;
+    color: #028723;
+}
+
+.delete-button {
+    outline: 1px #b84040 solid;
+    color: #b84040;
+}
+.delete-button:hover {
+    border: 1px #ff0000 solid;
+    color: #ff0000;
+}
